@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+    background-color: gold;
+}
+
+.main-header{
+    width: 400px;
+    height: 200px;
+
+}
+
+/* NAVIGATION */
+.navbar{
+    list-style: none;
+    margin: o;
+    padding: 0;
+    background: grey;
+    border-radius: 5px;
+    overflow: auto;
+
+}
+.navbar ul{
+    float: right;
+    list-style: none;
+}
+
+.navbar li{
+    float: left;
+}
+
+.navbar li a{
+    display: block;;
+    color:  rgb(75, 20, 75);
+    text-decoration: none;
+    padding: 15px 20px;
+    float: left;
+
+}
+.navbar li a:hover{
+    background-color: gold;
+
+}
+
+
+/* div */
+
+/* sed */
+.About-Me {
+    color: red;
+}
+
+
+
+
+
+
+
+/* .About-Me, */
+.Contact-Info {
+    margin-bottom: 20px;
+    padding: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(75, 20, 75);
+    color: #ffffff;
+}
+
+/* Work: flext-container */
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: rgb(75, 20, 75);
+    color: #ffffff;
+
+
+}
+
+.work {
+    text-align: center;
+    border-radius: 10px;
+    width: 400px;
+    height: 100px;
+    background: #f4f4f4;
+    border: gray solid 2px;
+    color: black;
+}
+.box {
+    height: 75px;
+    width: 100px;
+    border: 1px solid lightgrey;
+    display: flex;
+  }
+
+@media screen and (max-width: 992px) {
+    .work{
+        color: blue;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .work{
+        color: green;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .work{
+        color: red;
+        flex-direction: column;
+    }
+}
